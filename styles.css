@@ -1,0 +1,102 @@
+
+
+body{
+    background-color: rgb(231, 140, 209);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    font-style: oblique;
+}
+.head-image{
+    width: 100%;
+}
+
+.questions{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+
+.question-input{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    margin-top: -40px;
+    border-radius: 10px;
+    padding: 10px 30px 10px 5px;
+}
+
+.submit{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    margin-top: 15px;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+    background-color: pink;
+}
+
+.submit:hover {
+    background-color:violet;
+    color: white;
+}
+
+
+/* yes */
+
+.images-box {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+}
+
+.images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.images img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+
+.iloveyou {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100px;
+    font-style: oblique;
+}
+
+.back{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    margin-top: 15px;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+    background-color: pink;
+    margin-bottom: 20px;
+}
+
+.fullscreen-image {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.try{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    margin-top: 15px;
+    padding: 50px 200px;
+    cursor: pointer;
+    background-color: pink;
+    font-size: 50px;
+}
